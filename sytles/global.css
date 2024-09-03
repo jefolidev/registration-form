@@ -1,0 +1,27 @@
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+
+  --text-sm: 400 0.875rem/1.5 var(--font-poppins);
+  --text-base: 400 1rem/1.5 var(--font-poppins);
+  --text-md: 400 1.25rem/1.5 var(--font-poppins);
+  --text-lg: 400 1.5rem/1.5 var(--font-poppins);
+  --text-xl: 400 2rem/1.5 var(--font-poppins);
+
+  --text-primary: #292524;
+  --text-secondary: #57534e;
+  --text-tertiary: #8f8881;
+  --text-highlight: #e43a12;
+
+  --surface-primary: #fff1fd;
+  --surface-secondary: #fee7d6;
+  --surface-disabled: #e7e5e4;
+
+  --stroke-default: #d6d3d1;
+  --stroke-highlight: #f3541c;
+
+  --semantic-error: #dc2626;
+}
+
+body {
+  font: var(--text-sm);
+}
